@@ -1,0 +1,116 @@
+* {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+$head: 20rem;
+
+body{
+  background: #25A9FC; 
+  .box{
+    //When the position is set to relative, using display: block; and margin:auto; will automatically center the box horizontally.
+    position: relative;
+    margin: auto;
+    display: block;
+    .head{
+      position: absolute;
+      top: calc(50% - #{$head}/2);
+      left: calc(50% - #{$head}/2);
+      width: $head;
+      height: $head;
+      background: #A6BECF;
+      border-radius: 50%;
+      .head-copy{
+        top: calc(50% - #{$head}/2);
+        left: calc(50% - #{$head}/2);
+        position: absolute;
+        background: #A6BECF;
+        border-radius: 50%;
+        z-index: 2; 
+      }
+      .ear{
+        position: absolute;
+        width: 60%;
+        height: 65%;
+        background: #A6BECF;
+        border-radius: 50%;
+        z-index: 1;
+        &.ear-left{
+          left: -20%;
+          top: 5%;
+        }
+        &.ear-right{
+          right: -20%;
+          top: 5%;
+        }
+        .inner-ear{
+          position: absolute;
+          border-radius: 50%;
+          width: 80%;
+          height: 80%;
+          top: 10%;
+          left: 10%;
+          background: #819CAF;
+        }
+      }
+      .eye {
+        position: absolute;
+        background: white;
+        width: 30%;
+        height: 33%;
+        border-radius: 50%;
+        z-index: 3;
+        &.eye-left{
+          top: 25%;
+          left: 21%;
+        }
+        &.eye-right{
+          top: 25%;
+          right: 21%;
+        }
+        .pupil{
+          position: absolute;
+          width: 28%;
+          height: 30%;
+          top: 35%;
+          left: 36%;
+          border-radius: 50%;
+          background: #27354A;
+        }
+      }
+      .nose{
+        position: absolute;
+        background: #BE845F;
+        width: 25%;
+        height: 36.5%;
+        left: 37%;
+        top: 45%;
+        border-radius: 50px;
+        z-index: 4;
+      }
+      .hair-left{
+        position: absolute;
+        top: -8%;
+        left: 30%;
+        width: 20%;
+        height: 20%;
+        background:  #A6BECF;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+      .hair-right{
+        position: absolute;
+        top: -4%;
+        left: 48%;
+        width: 20%;
+        height: 20%;
+        background:  #A6BECF;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+    }
+  }
+}

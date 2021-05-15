@@ -1,0 +1,113 @@
+* {
+	 width: 100%;
+	 height: 100%;
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 1rem;
+}
+ body {
+	 background: #25a9fc;
+}
+ body .box {
+	 position: relative;
+	 margin: auto;
+	 display: block;
+}
+ body .box .head {
+	 position: absolute;
+	 top: calc(50% - 20rem/2);
+	 left: calc(50% - 20rem/2);
+	 width: 20rem;
+	 height: 20rem;
+	 background: #a6becf;
+	 border-radius: 50%;
+}
+ body .box .head .head-copy {
+	 top: calc(50% - 20rem/2);
+	 left: calc(50% - 20rem/2);
+	 position: absolute;
+	 background: #a6becf;
+	 border-radius: 50%;
+	 z-index: 2;
+}
+ body .box .head .ear {
+	 position: absolute;
+	 width: 60%;
+	 height: 65%;
+	 background: #a6becf;
+	 border-radius: 50%;
+	 z-index: 1;
+}
+ body .box .head .ear.ear-left {
+	 left: -20%;
+	 top: 5%;
+}
+ body .box .head .ear.ear-right {
+	 right: -20%;
+	 top: 5%;
+}
+ body .box .head .ear .inner-ear {
+	 position: absolute;
+	 border-radius: 50%;
+	 width: 80%;
+	 height: 80%;
+	 top: 10%;
+	 left: 10%;
+	 background: #819caf;
+}
+ body .box .head .eye {
+	 position: absolute;
+	 background: white;
+	 width: 30%;
+	 height: 33%;
+	 border-radius: 50%;
+	 z-index: 3;
+}
+ body .box .head .eye.eye-left {
+	 top: 25%;
+	 left: 21%;
+}
+ body .box .head .eye.eye-right {
+	 top: 25%;
+	 right: 21%;
+}
+ body .box .head .eye .pupil {
+	 position: absolute;
+	 width: 28%;
+	 height: 30%;
+	 top: 35%;
+	 left: 36%;
+	 border-radius: 50%;
+	 background: #27354a;
+}
+ body .box .head .nose {
+	 position: absolute;
+	 background: #be845f;
+	 width: 25%;
+	 height: 36.5%;
+	 left: 37%;
+	 top: 45%;
+	 border-radius: 50px;
+	 z-index: 4;
+}
+ body .box .head .hair-left {
+	 position: absolute;
+	 top: -8%;
+	 left: 30%;
+	 width: 20%;
+	 height: 20%;
+	 background: #a6becf;
+	 -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+ body .box .head .hair-right {
+	 position: absolute;
+	 top: -4%;
+	 left: 48%;
+	 width: 20%;
+	 height: 20%;
+	 background: #a6becf;
+	 -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+ 
