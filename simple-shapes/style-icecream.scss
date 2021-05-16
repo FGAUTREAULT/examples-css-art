@@ -1,0 +1,89 @@
+// 1/ define document areas, size and colors
+body{
+  background: #FED550;
+  .container {
+    // 2/ position & transform
+    position: absolute;
+    // Use top/left 50% to put at the center of the frame
+    top: 50%;
+    left: 50%;
+    // User transform x/y -50% to align container center and frame center
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ice-cream {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 240px;
+      height: 350px;
+      background: #F982BF;
+      border-top: 8px solid #FF98CC;
+      border-radius: 120px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      .glare {
+        position: relative;
+        left: 170px;
+        bottom: 20px;
+        transform: rotate(-38deg);
+        width: 35px;
+        height: 70px;
+        background: #FF98CC;
+        border-radius: 100%;
+      }
+      .face {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 58px;
+        .eyes {
+          display: flex;
+          justify-content: space-between;
+          width: 145px;
+          .eye {
+            position: relative;
+            width: 18px;
+            height: 18px;
+            background: #FF2995;
+            border-bottom: 2px solid #FF98CC;
+            border-radius: 100%;
+          }
+          // 3/ Every single element on a page can actually be three elements: the main element, ::before, and ::after. The key things to add to a pseudo-element are a display value and content: ‘’
+          .eye::before {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 5px;
+            height: 5px;
+            background: #fff;
+            border-radius: 100%;
+          }
+        }
+        .mouth {
+          width: 75px;
+          height: 25px;
+          background: #FF2995;
+          // 4/ add the small details, use px rather than % for more control on the shape
+          border-bottom: 2px solid #FF98CC;
+          border-radius: 10px;
+          border-bottom-left-radius: 40px;
+          border-bottom-right-radius: 40px;
+        }
+      }
+    }
+    .stick {
+      width: 60px;
+      height: 72px;
+      background: #ECAA7D;
+      border-top: 12px solid #DB9E74;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+  }
+}
