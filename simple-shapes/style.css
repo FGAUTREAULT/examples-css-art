@@ -110,4 +110,18 @@
 	 -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 	 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+ body .box .head .mouse {
+	 position: absolute;
+	 bottom: 15%;
+	 width: 25%;
+	 height: 1px;
+	 left: 37%;
+	 border-radius: 50px;
+	 z-index: 3;
+	 background: #27354a;
+	 border-bottom: 2px solid #ff98cc;
+	 border-radius: 10px;
+	 border-bottom-left-radius: 40px;
+	 border-bottom-right-radius: 40px;
+}
  
