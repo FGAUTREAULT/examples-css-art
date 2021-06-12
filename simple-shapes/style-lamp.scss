@@ -1,6 +1,6 @@
 // 1/ define document areas, size and colors
 body{
-  background: #FED550;
+  background: white;
   .container {
     // 2/ position & transform
     position: absolute;
@@ -12,5 +12,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    .lamp {
+      .shade {
+
+      }
+      .leg {
+        
+      }
+      .foot {
+
+      }
+    }
   }
 }

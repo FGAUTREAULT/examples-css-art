@@ -22,9 +22,9 @@ Along with every element we also have the pseudo-elements ::before and ::after a
 A very important aspect of CSS art is positioning the shapes for alignment or for creating complex shapes from basic ones.
 That requires manipulation of the co-ordinates of the shapes. To do that, we may need to set an absolute or relative positioning.
 
-In a lot of case it helps to set *{position: absolute} - it's easier to calculate position relative to the parent element. But it's not always necessary - we can use relative positioning, or even flex/grid based on the particular use case (Flex with justify-content is a great tool for centering elements). The main point is figuring out how the different boxes are to be positioned wrt each other.
+In a lot of case it helps to set *{position: absolute} - it's easier to calculate position relative to the parent element. But it's not always necessary - we can use relative positioning, or even flex/grid based on the particular use case (Flex with justify-content is a great tool for centering elements). The main point is figuring out how the different boxes are to be positioned with each other.
 
-Along with positioning, z-index is handy to position elements in front of or behind other elements. *It helps to dig a bit into stacking context to deepen our understanding of z-index to wield it well (I wrote an article about that here)
+Along with positioning, z-index is handy to position elements in front of or behind other elements. *It helps to dig a bit into stacking context to deepen our understanding of z-index to wield it well.
 
 ### DOM structure
 This doesn't actually affect the CSS art as such. It's more about good practice for maintainable stylesheets . It better to have a hierarchy of elements to create the parts that make up the whole drawing. Ex: eyes divs should be placed inside a head div, if possible using ::before, ::after of an element for creating details only of that element (this won't and needn't be true if you are constraining the number of elements)
@@ -34,6 +34,8 @@ Now, we will move on to manipulating the square into different shapes.
 
 Border-radius is a great way to create not only circles and ellipses, but also organic looking shapes.
 Here is the tool to easily you can use to [generate radius](https://9elements.github.io/fancy-border-radius/).
+And this [video](https://www.youtube.com/watch?v=j3Z4DR0o8bk) to understand the property and result, especially control around horizontal and vertical radius.
+> border-radius: hborder / vborder  
 
 ### Box-Shadow
 While creating CSS art, box-shadow can be used create copies of a shape in addition to simulating a 3d effect. Multiple box-shadows can be applied to an element to create multiple copies of different sizes. Inset borders can be used to create shadows as well.
@@ -69,3 +71,10 @@ We will initially have some idea about how those shapes can be generated (new el
 ### Lamp - 💻
 > _https://codepen.io/FGAUTREAULT/pen/oNZadYP?editors=1100_   
 ![Simple shapes - Lamp](assets/result-lamp.png)
+
+## Resources for inspiration
+> _https://codepen.io/poulamic/full/eYJWrNE_  
+> _https://codepen.io/poulamic/pen/mdPPqbx_  
+> _https://a.singlediv.com/_  
+> _https://codepen.io/hylobates-lar/pen/WNwRjbQ_  
+> _https://codepen.io/aitchiss/pen/eYpXodg_  
