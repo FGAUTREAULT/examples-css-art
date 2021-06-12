@@ -81,3 +81,4 @@ We will initially have some idea about how those shapes can be generated (new el
 > _https://codepen.io/hylobates-lar/pen/WNwRjbQ_  
 > _https://codepen.io/aitchiss/pen/eYpXodg_  
 > _https://codepen.io/jkantner/pen/ELvMBE_  
+> _https://codepen.io/search/pens?q=daily%20css%20images&page=1&order=popularity&depth=everything&show_forks=false_  
