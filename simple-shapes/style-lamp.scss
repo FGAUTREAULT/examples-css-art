@@ -1,0 +1,15 @@
+// 1/ define document areas, size and colors
+body{
+  background: #FED550;
+  .container {
+    // 2/ position & transform
+    position: absolute;
+    // Use top/left 50% to put at the center of the frame
+    top: 50%;
+    left: 50%;
+    // User transform x/y -50% to align container center and frame center
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
