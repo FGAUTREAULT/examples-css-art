@@ -80,3 +80,4 @@ We will initially have some idea about how those shapes can be generated (new el
 > _https://a.singlediv.com/_  
 > _https://codepen.io/hylobates-lar/pen/WNwRjbQ_  
 > _https://codepen.io/aitchiss/pen/eYpXodg_  
+> _https://codepen.io/jkantner/pen/ELvMBE_  
