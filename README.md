@@ -5,6 +5,7 @@ Current status: 👍 - 💻
 ├── master
     ├── ...
     └── 1 - Simple shapes: using square, circles, transform & border
+    └── 2 - Border radius & gradient: using border radius for overall shape, gradient for 3D effect and dimension
 </pre>
 
 
@@ -68,9 +69,10 @@ We will initially have some idea about how those shapes can be generated (new el
 > _https://codepen.io/FGAUTREAULT/pen/BaWzZEv_  
 ![Simple shapes - Ice cream](assets/result-icecream.png)
 
-### Lamp - 💻
+## 2 - Border radius & Gradient
+### Lamp - 👍
 > _https://codepen.io/FGAUTREAULT/pen/oNZadYP?editors=1100_   
-![Simple shapes - Lamp](assets/result-lamp.png)
+![Border radius & Gradient - Lamp](assets/result-lamp.png)
 
 ## Resources for inspiration
 > _https://codepen.io/poulamic/full/eYJWrNE_  
